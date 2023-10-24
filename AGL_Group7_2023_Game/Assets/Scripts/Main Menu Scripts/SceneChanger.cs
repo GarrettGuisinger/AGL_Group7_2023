@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,19 +10,22 @@ public class SceneChanger : MonoBehaviour
     {
         
     }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Quit();
+        }
+    }
+
     public static void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
-
-    public void ChangeSceneWithDelay(string sceneName, float delay)
+    
+    public void Quit()
     {
-        StartCoroutine(sceneChangeDelayed(sceneName, delay));
-    }
-
-    IEnumerator sceneChangeDelayed(string sceneName, float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(sceneName);
+        Application.Quit();
     }
 }

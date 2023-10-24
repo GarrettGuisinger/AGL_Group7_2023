@@ -20,11 +20,15 @@ namespace UI_Scripts
         }
         
         // Enable & Disable Command
-        public void Enable(Graphic UI, float wait, bool enable)
+        public void Enable(Graphic UI, bool enable)
         {
             UI.enabled = enable;
         }
-
+        
+        public void Enable(Canvas UI, bool enable)
+        {
+            UI.enabled = enable;
+        }
         // Fade With Delay Command
         public void fadeWithDelay(Graphic UI, float alpha, float duration, float delay)
         {
