@@ -12,6 +12,15 @@ namespace UI_Scripts
             
         }
 
+        public void playClip(VideoPlayer player, VideoClip clip, float length, bool loop)
+        {
+            player.clip = clip;
+            player.Prepare();
+            player.Play();
+            player.isLooping = loop;
+            StartCoroutine(stop(player, length));
+        }
+        
         public void playWithDelay(VideoPlayer video, float delay)
         {
             StartCoroutine(play(video, delay));

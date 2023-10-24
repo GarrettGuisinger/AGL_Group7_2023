@@ -3,13 +3,10 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraMove
     - CameraRotation
-    - Main_Menu_Scripts.QuitGame
     - MeshCombiner
     - NewGameScript
     - SceneChanger
     - UI_Scripts.VisibilityModifier
-    Unity.PlasticSCM.Editor.dll:
-    - Unity.PlasticSCM.Editor.PlasticWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.RiderScriptEditorPersistedState
@@ -84,7 +81,7 @@ ScriptsOnlyBuild:
     fullTypeName: NewGameScript
     methodName: startNewGame
   - assembly: Assembly-CSharp
-    fullTypeName: Main_Menu_Scripts.QuitGame
+    fullTypeName: SceneChanger
     methodName: Quit
   sceneClasses:
     Assets/Scenes/MainMenu.unity:
@@ -152,8 +149,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 34504}
     - Class: 114
       Script: {instanceID: 39568}
-    - Class: 114
-      Script: {instanceID: 50500}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1098,7 +1093,7 @@ ScriptsOnlyBuild:
     className: VisibilityModifier
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 319c344a147a80138378d30b06e6513f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: NewGameScript
@@ -1108,12 +1103,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: UI_Scripts
     className: VideoScript
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: Main_Menu_Scripts
-    className: QuitGame
   platform: 2
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
