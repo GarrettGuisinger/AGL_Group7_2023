@@ -10,6 +10,7 @@ public class NewGameScript : MonoBehaviour
 {
     private Canvas mainMenu;
     private Image mainMenuBackground;
+    private Image title;
     private TextMeshProUGUI newGameButton;
     private TextMeshProUGUI settingsButton;
     private TextMeshProUGUI quitButton;
@@ -27,6 +28,7 @@ public class NewGameScript : MonoBehaviour
     {
         mainMenu = GameObject.Find("MainMenu").GetComponent<Canvas>();
         mainMenuBackground = GameObject.Find("MainMenuBackground").GetComponent<Image>();
+        title = GameObject.Find("Title").GetComponent<Image>();
         newGameButton = GameObject.Find("New Game (Text)").GetComponent<TextMeshProUGUI>();
         settingsButton = GameObject.Find("Settings (Text)").GetComponent<TextMeshProUGUI>();
         quitButton = GameObject.Find("Quit (Text)").GetComponent<TextMeshProUGUI>();
@@ -42,44 +44,6 @@ public class NewGameScript : MonoBehaviour
     public void startNewGame()
     {
         StartCoroutine(UITransition());
-        //VisibilityModifier is the class used to change the visibility of objects
-        // VideoScript is the class used to utilize the VideoPlayer in our script
-        // This section Fades out the entire menu screen
-        /*mod.Fade(crewmateScreen.GetComponent<Image>(), 0, 0.1f);
-        mod.Fade(mainMenuBackground.GetComponent<Image>(), 0, 1);
-        mod.Fade(newGameButton.GetComponent<TextMeshProUGUI>(), 0, 1);
-        mod.Fade(settingsButton.GetComponent<TextMeshProUGUI>(), 0, 1);
-        mod.Fade(quitButton.GetComponent<TextMeshProUGUI>(), 0, 1);
-        // This disables the mainMenuBackground, if that actually does anything
-        mod.enableWithDelay(mainMenuBackground.GetComponent<Image>(), 2, false);
-        // This sets up and plays the shush clip
-        videoPlay.clipWithDelay(videoPlayer.GetComponent<VideoPlayer>(), shush, 2);
-        mod.enableWithDelay(videoRaw.GetComponent<RawImage>(), 3, true);
-        videoPlay.playWithDelay(videoPlayer.GetComponent<VideoPlayer>(), 2.5f);
-        videoPlay.stopWithDelay(videoPlayer.GetComponent<VideoPlayer>(), 6);
-        // This disables the video clip
-        mod.enableWithDelay(videoRaw.GetComponent<RawImage>(), 6, false);
-        // This makes the crewmate screen fade in
-        mod.enableWithDelay(crewmateScreen.GetComponent<Image>(), 6, true);
-        mod.fadeWithDelay(crewmateScreen.GetComponent<Image>(),  1, 2, 6.2f);
-        // This sets up the glitch video 
-        videoPlay.loop(videoPlayer.GetComponent<VideoPlayer>(), true, 7.2f);
-        videoPlay.clipWithDelay(videoPlayer.GetComponent<VideoPlayer>(), glitch, 7.2f);
-        // This disables the crewmate screen image
-        mod.enableWithDelay(crewmateScreen.GetComponent<Image>(), 8.2f, false);
-        // This shows and play the glitch rawImage
-        mod.enableWithDelay(videoRaw.GetComponent<RawImage>(), 8.2f, true);
-        videoPlay.playWithDelay(videoPlayer.GetComponent<VideoPlayer>(), 8.2f);
-        // This shows the "Survive" screen
-        mod.enableWithDelay(surviveScreen.GetComponent<Image>(), 8.2f, true);
-        // This stops he glitch video
-        videoPlay.stopWithDelay(videoPlayer.GetComponent<VideoPlayer>(), 10.2f);
-        // This disables the glitch video 
-        mod.enableWithDelay( videoRaw.GetComponent<RawImage>(), 10.2f, false);
-        // This fades the "surviveScreen"
-        mod.fadeWithDelay(surviveScreen.GetComponent<Image>(), 0, 2, 14.2f);
-        // This changes the scene
-        scene.ChangeSceneWithDelay("Night1Scene", 17);*/
     }
 
     IEnumerator UITransition()
@@ -88,6 +52,7 @@ public class NewGameScript : MonoBehaviour
         mod.Fade(crewmateScreen, 0, 0.1f);
         // This fades out every element of the menu screen
         mod.Fade(mainMenuBackground, 0, 1);
+        mod.Fade(title, 0, 1);
         mod.Fade(newGameButton, 0, 1);
         mod.Fade(settingsButton, 0, 1);
         mod.Fade(quitButton, 0, 1);
@@ -95,6 +60,7 @@ public class NewGameScript : MonoBehaviour
         yield return new WaitForSeconds(1);
         // Disables the mainMenuBackground Image and rests the alpha of the menu assets to 1
         mod.Enable(mainMenu, false);
+        mod.Fade(mainMenuBackground, 1, 0.1f);
         mod.Fade(mainMenuBackground, 1, 0.1f);
         mod.Fade(newGameButton, 1, 0.1f);
         mod.Fade(settingsButton, 1, 0.1f);
