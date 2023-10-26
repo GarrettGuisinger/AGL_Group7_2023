@@ -363,6 +363,7 @@
 "Assets/Scripts/Main Menu Scripts/NewGameScript.cs"
 "Assets/Scripts/Main Menu Scripts/SceneChanger.cs"
 "Assets/Scripts/MeshCombiner.cs"
+"Assets/Scripts/ReactorFunctions.cs"
 "Assets/Scripts/UI Scripts/VideoScript.cs"
 "Assets/Scripts/UI Scripts/VisibilityModifier.cs"
 "Assets/Scripts/VentStates.cs"
