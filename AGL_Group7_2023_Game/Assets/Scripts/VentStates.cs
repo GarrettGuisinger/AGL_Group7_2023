@@ -8,6 +8,8 @@ using Random = UnityEngine.Random;
 public class VentStates : MonoBehaviour
 {
 
+    AudioSource audio;
+    public AudioClip screw;
     public GameObject vent1;
     public GameObject vent2;
     public GameObject imposter;
@@ -21,6 +23,7 @@ public class VentStates : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audio  = GetComponent<AudioSource>();
         vent1.SetActive(true);
         vent2.SetActive(false);
         imposter.SetActive(false);
@@ -35,6 +38,7 @@ public class VentStates : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && (cam.transform.position == (floorPos.transform.position + new Vector3(0, 4, 0))))
         {
             counter += 1;
+            audio.PlayOneShot(screw, 0.3f);
             if (counter == 4) {
                 vent1.SetActive(true);
                 vent2.SetActive(false);
