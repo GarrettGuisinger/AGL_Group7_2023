@@ -25,6 +25,10 @@ public class AdminMarkers : MonoBehaviour
     public void updateFredgus(int position)
     {
         FredMark.transform.localPosition = FredgusMarks[position];
+        if (position == 5)
+        {
+            return;
+        }
     }
     public void updateBongus(int position)
     {
