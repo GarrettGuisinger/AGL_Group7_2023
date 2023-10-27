@@ -24,11 +24,11 @@ public class AdminMarkers : MonoBehaviour
 
     public void updateFredgus(int position)
     {
-        FredMark.transform.localPosition = FredgusMarks[position];
         if (position == 5)
         {
             return;
         }
+        FredMark.transform.localPosition = FredgusMarks[position];
     }
     public void updateBongus(int position)
     {

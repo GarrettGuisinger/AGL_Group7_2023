@@ -95,9 +95,8 @@ public class GameEvents : MonoBehaviour
                 }
                 else
                 {
-                    //SceneManager.LoadScene("LoseScene");
+                    SceneManager.LoadScene("LoseScene");
                 }
-                // Kills you
             }
             fredPosition++;
             admin.GetComponent<AdminMarkers>().updateFredgus(fredPosition);

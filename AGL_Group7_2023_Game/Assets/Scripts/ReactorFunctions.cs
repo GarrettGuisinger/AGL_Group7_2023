@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ReactorFunctions : MonoBehaviour
 {
@@ -34,6 +35,7 @@ public class ReactorFunctions : MonoBehaviour
 
         if (timer > meltdownTimer) {
             Debug.Log("Reactor Explosion/GameOver");
+            SceneManager.LoadScene("LoseScene");
         }
 
         if (cam.transform.position == new Vector3((float)1.4, (float)5.3, (float)22)) {
