@@ -4,10 +4,16 @@ using System.Collections;
 public class CameraRotation : MonoBehaviour
 {
     public float rotationSpeed;
+    public Vector2 mousedelta;
  
     float pitch;
     float yaw;
-   
+    
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    
     void Update()
     {
         pitch += rotationSpeed * Input.GetAxis("Mouse Y");
@@ -26,5 +32,7 @@ public class CameraRotation : MonoBehaviour
        
         // Set orientation:
         transform.eulerAngles = new Vector3(-pitch, yaw, 0f);
+
+        mousedelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
     }
 }
