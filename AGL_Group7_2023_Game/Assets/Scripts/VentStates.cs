@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class VentStates : MonoBehaviour
@@ -45,6 +46,7 @@ public class VentStates : MonoBehaviour
         if (timer > waitTime)
         {
             Debug.Log("Bongus Jumpscare");
+            SceneManager.LoadScene("LoseScene");
         }
     }
         /*if (timer > randVal && !(imposter.active)) {

@@ -368,6 +368,7 @@
 "Assets/Scripts/UI Scripts/VideoScript.cs"
 "Assets/Scripts/UI Scripts/VisibilityModifier.cs"
 "Assets/Scripts/VentStates.cs"
+"Assets/Scripts/WinScript.cs"
 -langversion:9.0
 
 /deterministic

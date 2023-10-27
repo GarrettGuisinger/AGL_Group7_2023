@@ -361,6 +361,7 @@
 "Assets/Scripts/CameraRotation.cs"
 "Assets/Scripts/Clock.cs"
 "Assets/Scripts/DoorStates.cs"
+"Assets/Scripts/LoseScript.cs"
 "Assets/Scripts/Main Menu Scripts/NewGameScript.cs"
 "Assets/Scripts/Main Menu Scripts/SceneChanger.cs"
 "Assets/Scripts/MeshCombiner.cs"
@@ -368,6 +369,7 @@
 "Assets/Scripts/UI Scripts/VideoScript.cs"
 "Assets/Scripts/UI Scripts/VisibilityModifier.cs"
 "Assets/Scripts/VentStates.cs"
+"Assets/Scripts/WinScript.cs"
 -langversion:9.0
 
 /deterministic
