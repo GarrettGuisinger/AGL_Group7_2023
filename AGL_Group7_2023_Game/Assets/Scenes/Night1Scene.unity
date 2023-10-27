@@ -428,6 +428,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08ac031bf01f4cf4a9c8f3e886a583d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alarm: {fileID: 8300000, guid: aa6dfb7440086a640b1fb20d303d840a, type: 3}
+  clock: {fileID: 8300000, guid: f3b475aa44faa0042b1d3bb1c401c2e4, type: 3}
+  powerup: {fileID: 8300000, guid: ec18c837e1fc48948a2c44abda4780ac, type: 3}
   cam: {fileID: 445082580}
   imposter: {fileID: 1602014806}
   timer: 0
@@ -2699,7 +2702,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: cc5ee17ec10b0624cb15f857bd0c948e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.59
+      value: 18.23
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cc5ee17ec10b0624cb15f857bd0c948e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2707,7 +2710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cc5ee17ec10b0624cb15f857bd0c948e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.16
+      value: 26.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cc5ee17ec10b0624cb15f857bd0c948e, type: 3}
       propertyPath: m_LocalRotation.w
