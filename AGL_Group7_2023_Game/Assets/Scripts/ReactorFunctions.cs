@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class ReactorFunctions : MonoBehaviour
 {
-    AudioSource alarm;
+    AudioSource audio;
+    public AudioClip alarm;
+    public AudioClip click;
+    public AudioClip powerup;
     public Camera cam;
     public MeshRenderer imposter;
     public double timer = 0;
@@ -18,7 +21,7 @@ public class ReactorFunctions : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        alarm  = GetComponent<AudioSource>();
+        audio  = GetComponent<AudioSource>();
         chikReactor = false;
         imposter.enabled = false;
     }
@@ -37,33 +40,43 @@ public class ReactorFunctions : MonoBehaviour
             
             if (Input.GetKeyDown(KeyCode.Alpha0)) {
                 userInput += "0";
+                audio.PlayOneShot(click, 0.2f);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha1)) {
                 userInput += "1";
+                audio.PlayOneShot(click, 0.2f);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha2)) {
                 userInput += "2";
+                audio.PlayOneShot(click, 0.2f);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha3)) {
                 userInput += "3";
+                audio.PlayOneShot(click, 0.2f);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha4)) {
                 userInput += "4";
+                audio.PlayOneShot(click, 0.2f);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha5)) {
                 userInput += "5";
+                audio.PlayOneShot(click, 0.2f);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha6)) {
                 userInput += "6";
+                audio.PlayOneShot(click, 0.2f);
             }
             else  if (Input.GetKeyDown(KeyCode.Alpha7)) {
                 userInput += "7";
+                audio.PlayOneShot(click, 0.2f);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha8)) {
                 userInput += "8";
+                audio.PlayOneShot(click, 0.2f);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha9)) {
                 userInput += "9";
+                audio.PlayOneShot(click, 0.2f);
             }
 
 
@@ -73,6 +86,7 @@ public class ReactorFunctions : MonoBehaviour
                code.text = "Safe";
                meltdownTimer = -1;
                timer = 0;
+               audio.PlayOneShot(powerup, 0.3f);
             }
             else if (userInput.Length == 4 && userInput != codeStr) {
                 userInput = "";
@@ -81,7 +95,7 @@ public class ReactorFunctions : MonoBehaviour
     }
     public void Meltdown()
     {
-        alarm.Play(0);  
+        audio.PlayOneShot(alarm); 
         codeInt = Random.Range(1000, 9999);
         codeStr = codeInt.ToString();
         code.text = $"Critical:\n{codeStr}";

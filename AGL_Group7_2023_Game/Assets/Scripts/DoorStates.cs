@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class DoorStates : MonoBehaviour
 {
-
+    AudioSource audio;
+    public AudioClip slam;
     public GameObject door1;
     public GameObject door2;
     public GameObject door3;
@@ -16,6 +17,7 @@ public class DoorStates : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audio  = GetComponent<AudioSource>();
         door1.SetActive(false);
         door2.SetActive(false);
         door3.SetActive(false);
@@ -28,10 +30,12 @@ public class DoorStates : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A) && canClose) {
             door1.SetActive(!door1.activeSelf);
             door2.SetActive(!door2.activeSelf);
+            audio.PlayOneShot(slam, 0.3f);
         }
         else if (Input.GetKeyDown(KeyCode.D) && canClose) {
             door3.SetActive(!door3.activeSelf);
             door4.SetActive(!door4.activeSelf);
+            audio.PlayOneShot(slam, 0.3f);
         }
 
         if (door1.activeSelf && canClose) {
