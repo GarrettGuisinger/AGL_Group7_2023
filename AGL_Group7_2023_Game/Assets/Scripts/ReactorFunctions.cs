@@ -8,48 +8,32 @@ public class ReactorFunctions : MonoBehaviour
     public Camera cam;
     public MeshRenderer imposter;
     public double timer = 0;
-    public int randVal = 0;
+    public int meltdownTimer = 0;
     public int codeInt = 0;
     public TMPro.TextMeshPro code;
-    private bool state2 = false;
     private string codeStr;
     private string userInput = "";
+    private bool chikReactor;
 
     // Start is called before the first frame update
     void Start()
     {
         alarm  = GetComponent<AudioSource>();
-        randVal = Random.Range(35,50);
+        chikReactor = false;
+        imposter.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (chikReactor == false) return;
         timer += Time.deltaTime;
 
-        if(alarm.isPlaying) {
-            imposter.enabled = true;
-        }
-        else {
-            imposter.enabled = false;
-        } 
-
-        if (timer > randVal && !state2) {
-            alarm.Play(0);  
-            codeInt = Random.Range(1000, 9999);
-            codeStr = codeInt.ToString();
-            code.text = $"Critical:\n{codeStr}";
-            timer = 0;
-            randVal = 30;
-            state2 = true;
-        }
-
-        if (timer > randVal && state2) {
+        if (timer > meltdownTimer) {
             Debug.Log("Reactor Explosion/GameOver");
         }
 
-        if (cam.transform.position == new Vector3((float)1.4, (float)5.3, (float)22) && state2) {
+        if (cam.transform.position == new Vector3((float)1.4, (float)5.3, (float)22)) {
             
             if (Input.GetKeyDown(KeyCode.Alpha0)) {
                 userInput += "0";
@@ -85,17 +69,35 @@ public class ReactorFunctions : MonoBehaviour
 
 
             if ((userInput.Length == 4) && (userInput == codeStr)) {
-               state2 = false; 
+               chikReactor = false; 
                code.text = "Safe";
-               randVal = Random.Range(35,50);
+               meltdownTimer = -1;
                timer = 0;
             }
             else if (userInput.Length == 4 && userInput != codeStr) {
                 userInput = "";
             }
         }
-        
+    }
+    public void Meltdown()
+    {
+        alarm.Play(0);  
+        codeInt = Random.Range(1000, 9999);
+        codeStr = codeInt.ToString();
+        code.text = $"Critical:\n{codeStr}";
+        timer = 0;
+        meltdownTimer = 30;
+        chikReactor = true;
+    }
 
+    public bool ResetChik()
+    {
+        if (meltdownTimer == -1)
+        {
+            meltdownTimer = 0;
+            return true;
+        }
 
+        return false;
     }
 }

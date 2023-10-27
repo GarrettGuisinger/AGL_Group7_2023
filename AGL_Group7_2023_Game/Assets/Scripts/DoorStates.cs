@@ -16,55 +16,57 @@ public class DoorStates : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        door1.active = false;
-        door2.active = false;
-        door3.active = false;
-        door4.active = false;
+        door1.SetActive(false);
+        door2.SetActive(false);
+        door3.SetActive(false);
+        door4.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-    
-    if (Input.GetKeyDown(KeyCode.A) && canClose) {
-        door1.active = !(door1.active);
-        door2.active = !(door2.active);
-    }
-    else if (Input.GetKeyDown(KeyCode.D) && canClose) {
-        door3.active = !(door3.active);
-        door4.active = !(door4.active);
-    }
-
-    if (door1.active && canClose) {
-        timer += Time.deltaTime;
-    }
-
-    if (door3.active && canClose) {
-        timer += Time.deltaTime;
-    }
-
-    if (timer > 34 && canClose) {
-
-        door1.active = false;
-        door2.active = false;
-        door3.active = false;
-        door4.active = false;
-        canClose = false;
-        timer = 0;
-    }
-
-    if (!canClose) {
-       timer += Time.deltaTime; 
-       if (timer > 30) {
-        canClose = true;
-        timer = 0;
-       }
-    }
-    else if (!door1.active && !door3.active) {
-        if (timer > 0) {
-        timer -= Time.deltaTime;
+        if (Input.GetKeyDown(KeyCode.A) && canClose) {
+            door1.SetActive(!door1.activeSelf);
+            door2.SetActive(!door2.activeSelf);
+        }
+        else if (Input.GetKeyDown(KeyCode.D) && canClose) {
+            door3.SetActive(!door3.activeSelf);
+            door4.SetActive(!door4.activeSelf);
         }
 
+        if (door1.activeSelf && canClose) {
+            timer += Time.deltaTime;
+        }
+
+        if (door3.activeSelf && canClose) {
+            timer += Time.deltaTime;
+        }
+
+        if (timer > 34 && canClose) {
+
+            door1.SetActive(false);
+            door2.SetActive(false);
+            door3.SetActive(false);
+            door4.SetActive(false);
+            canClose = false;
+            timer = 0;
+        }
+
+        if (!canClose) {
+           timer += Time.deltaTime; 
+           if (timer > 30) {
+            canClose = true;
+            timer = 0;
+           }
+        }
+        else if (!door1.activeSelf && !door3.activeSelf) {
+            if (timer > 0) {
+                timer -= Time.deltaTime;
+            }
+        }
     }
-}
+    public bool door1Closed()
+    {
+        return door3.activeSelf;
+    }
 }
