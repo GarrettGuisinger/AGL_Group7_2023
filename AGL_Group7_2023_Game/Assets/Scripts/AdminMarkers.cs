@@ -8,9 +8,11 @@ public class AdminMarkers : MonoBehaviour
     [SerializeField] private Vector3[] FredgusMarks;
     [SerializeField] private Vector3[] BongusMarks;
     [SerializeField] private Vector3[] ChikusMarks;
+    [SerializeField] private Vector3[] FoxgusMarks;
     public GameObject FredMark;
     public GameObject BonMark;
     public GameObject ChikMark;
+    public GameObject FoxMark;
     
     // Start is called before the first frame update
 
@@ -20,6 +22,7 @@ public class AdminMarkers : MonoBehaviour
         FredMark.GetComponent<Transform>().localPosition = FredgusMarks[0];
         BonMark.GetComponent<Transform>().localPosition = BongusMarks[0];
         ChikMark.GetComponent<Transform>().localPosition = ChikusMarks[0];
+        FoxMark.GetComponent<Transform>().localPosition = FoxgusMarks[0] + new Vector3(0,0.4f,0.2f);
     }
 
     public void updateFredgus(int position)
@@ -53,5 +56,14 @@ public class AdminMarkers : MonoBehaviour
     public void updateChikus(int position)
     {
         ChikMark.transform.localPosition = ChikusMarks[position];
+    }
+
+    public void updateFoxgus(int position)
+    {
+        if (position == 5)
+        {
+            return;
+        }
+        FoxMark.transform.localPosition = FoxgusMarks[position] + new Vector3(0, 0.4f, 0.2f);
     }
 }

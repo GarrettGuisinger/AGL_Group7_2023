@@ -356,6 +356,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/AdminMarkers.cs"
 "Assets/Scripts/AnimatronicPositions.cs"
+"Assets/Scripts/AnimatronicScripts/FoxgusPosition.cs"
 "Assets/Scripts/AnimatronicScripts/FredgusPosition.cs"
 "Assets/Scripts/CameraMove.cs"
 "Assets/Scripts/CameraRotation.cs"

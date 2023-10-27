@@ -73,4 +73,9 @@ public class DoorStates : MonoBehaviour
     {
         return door3.activeSelf;
     }
+
+    public bool door2Closed()
+    {
+        return door1.activeSelf;
+    }
 }

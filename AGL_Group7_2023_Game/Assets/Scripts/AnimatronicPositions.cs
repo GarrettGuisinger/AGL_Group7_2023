@@ -19,6 +19,8 @@ public class GameEvents : MonoBehaviour
 
     public int chikPosition;
 
+    public int foxPosition;
+
     public bool doorClosed;
 
     public GameObject doors;
@@ -27,6 +29,7 @@ public class GameEvents : MonoBehaviour
     public GameObject bongus;
     public GameObject chikus;
     public MeshRenderer chikusModel;
+    public GameObject foxgus;
     public GameObject admin;
     
     // Start is called before the first frame update
@@ -48,9 +51,13 @@ public class GameEvents : MonoBehaviour
                 break;
             case >= 210 when phase == 2:
                 phase++;
+                StartCoroutine(FoxgusMovement());
+                break;
+            case >= 300 when phase == 3:
+                phase++;
                 StartCoroutine(ChikusMovement());
                 break;
-            case >= 540 when phase == 3:
+            case >= 540 when phase == 4:
                 phase++;
                 SceneManager.LoadScene("WinScene");
                 break;
@@ -220,9 +227,53 @@ public class GameEvents : MonoBehaviour
         }
     }
 
+    IEnumerator FoxgusMovement()
+    {
+        /*
+         * 0 == Storage Area
+         * 1 == Electrical Hallway
+         * 2 == Lower Engine Entrance
+         * 3 == Lower Engine
+         * 4 == Security Hallway
+         * 5 == Security Room
+         */
+        foxPosition = 0;
+        while (SceneCheck("Night1Scene"))
+        {
+            float waitTime = foxPosition switch
+            {
+                > 2 => Random.Range(15, 25),
+                _ => Random.Range(10, 15)
+            };
+            yield return new WaitForSeconds(waitTime);
+            if (foxPosition == 3)
+            {
+                foxgus.GetComponent<FoxgusPosition>().setPosition(1);
+            }
+            if (foxPosition == 4)
+            {
+                if (Door2Closed())
+                {
+                    foxgus.GetComponent<FoxgusPosition>().setPosition(0);
+                    foxPosition = -1;
+                }
+                else
+                {
+                    SceneManager.LoadScene("LoseScene");
+                }
+            }
+            foxPosition++;
+            admin.GetComponent<AdminMarkers>().updateFoxgus(foxPosition);
+        }
+    }
+    
     bool Door1Closed()
     {
         return doors.GetComponent<DoorStates>().door1Closed();
     }
-    
+
+    bool Door2Closed()
+    {
+        return doors.GetComponent<DoorStates>().door2Closed();
+    }
 }
