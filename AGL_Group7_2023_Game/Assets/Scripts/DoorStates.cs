@@ -46,8 +46,8 @@ public class DoorStates : MonoBehaviour
             timer += Time.deltaTime;
         }
 
-        if (timer > 34 && canClose) {
-
+        if (timer > 46 && canClose) {
+            audio.PlayOneShot(slam, 0.3f);
             door1.SetActive(false);
             door2.SetActive(false);
             door3.SetActive(false);
@@ -58,13 +58,14 @@ public class DoorStates : MonoBehaviour
 
         if (!canClose) {
            timer += Time.deltaTime; 
-           if (timer > 30) {
+           if (timer > 15) {
             canClose = true;
             timer = 0;
            }
         }
         else if (!door1.activeSelf && !door3.activeSelf) {
             if (timer > 0) {
+                timer -= Time.deltaTime;
                 timer -= Time.deltaTime;
             }
         }
