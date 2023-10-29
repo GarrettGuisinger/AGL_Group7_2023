@@ -1,0 +1,1146 @@
+Unity Editor version:    2022.3.11f1 (d00248457e15)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.1 (Build 22C65)
+Darwin version:          22.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker36
+-projectPath
+/Users/justinadams/Documents/GitHub/AGL_Group7_2023/AGL_Group7_2023_Game
+-logFile
+Logs/AssetImportWorker36.log
+-srvPort
+49930
+Successfully changed project path to: /Users/justinadams/Documents/GitHub/AGL_Group7_2023/AGL_Group7_2023_Game
+/Users/justinadams/Documents/GitHub/AGL_Group7_2023/AGL_Group7_2023_Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8100264576] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 2364235387 [EditorId] 2364235387 [Version] 1048832 [Id] OSXEditor(0,Justins-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8100264576] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 2364235387 [EditorId] 2364235387 [Version] 1048832 [Id] OSXEditor(0,Justins-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 9.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/justinadams/Documents/GitHub/AGL_Group7_2023/AGL_Group7_2023_Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56865
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001665 seconds.
+- Loaded All Assemblies, in  0.334 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.191 seconds
+Domain Reload Profiling: 525ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (88ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (151ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (192ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (140ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.416 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.371 seconds
+Domain Reload Profiling: 787ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (371ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3153 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.8 KB). Loaded Objects now: 3617.
+Memory consumption went from 132.3 MB to 132.2 MB.
+Total: 2.668791 ms (FindLiveObjects: 0.098667 ms CreateObjectMapping: 0.037000 ms MarkObjects: 2.362125 ms  DeleteObjects: 0.170459 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 65bfc10ada650ac9171cdd264618c99b -> a0be8c3c805069b43c47c9ffc5336d65
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28ffc3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.313 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.943 seconds
+Domain Reload Profiling: 1257ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (944ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (286ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3620.
+Memory consumption went from 134.7 MB to 134.6 MB.
+Total: 2.758666 ms (FindLiveObjects: 0.122458 ms CreateObjectMapping: 0.043750 ms MarkObjects: 2.522042 ms  DeleteObjects: 0.069666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CameraMove.cs: aa521818be3e8faecc4b53aff6f23d64 -> f64a7cfc921bd7d00f9c4d19df61245f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29342.939785 seconds.
+  path: Assets/Materials/Hallway/MovementPad.mat
+  artifactKey: Guid(522219243949c4e52ac3db7b07f15c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Hallway/MovementPad.mat using Guid(522219243949c4e52ac3db7b07f15c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405af4b0d6df975a60f1f4c84138543a') in 0.093533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Materials/Hallway/HallwayFloor.mat
+  artifactKey: Guid(42858aafa9b966b41834dc6712fe0ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Hallway/HallwayFloor.mat using Guid(42858aafa9b966b41834dc6712fe0ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc454080cd6a789e655f3bb6e36d1a6f') in 0.004146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Vent.obj
+  artifactKey: Guid(759d0b43eeda7744ba1867cab97c2fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vent.obj using Guid(759d0b43eeda7744ba1867cab97c2fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b678454609487b3fc9739f1b752544be') in 0.251787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x289f1b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.454 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.708 seconds
+Domain Reload Profiling: 1164ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (709ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (254ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3667.
+Memory consumption went from 144.5 MB to 144.4 MB.
+Total: 2.843250 ms (FindLiveObjects: 0.133542 ms CreateObjectMapping: 0.041375 ms MarkObjects: 2.614792 ms  DeleteObjects: 0.052959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CameraMove.cs: aa521818be3e8faecc4b53aff6f23d64 -> f64a7cfc921bd7d00f9c4d19df61245f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x289f1b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.340 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1002ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (662ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (254ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (34.1 KB). Loaded Objects now: 3668.
+Memory consumption went from 151.3 MB to 151.2 MB.
+Total: 2.271375 ms (FindLiveObjects: 0.126542 ms CreateObjectMapping: 0.039167 ms MarkObjects: 2.050625 ms  DeleteObjects: 0.054208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CameraMove.cs: aa521818be3e8faecc4b53aff6f23d64 -> f64a7cfc921bd7d00f9c4d19df61245f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x289f93000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.316 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 769ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (162ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (453ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (234ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3130 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (32.7 KB). Loaded Objects now: 3670.
+Memory consumption went from 157.8 MB to 157.8 MB.
+Total: 2.109500 ms (FindLiveObjects: 0.123417 ms CreateObjectMapping: 0.037708 ms MarkObjects: 1.890958 ms  DeleteObjects: 0.057042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CameraMove.cs: aa521818be3e8faecc4b53aff6f23d64 -> f64a7cfc921bd7d00f9c4d19df61245f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x289f93000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.294 seconds
+Refreshing native plugins compatible for Editor in 4.38 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.462 seconds
+Domain Reload Profiling: 757ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (462ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (32.7 KB). Loaded Objects now: 3672.
+Memory consumption went from 164.4 MB to 164.3 MB.
+Total: 2.205291 ms (FindLiveObjects: 0.103000 ms CreateObjectMapping: 0.037167 ms MarkObjects: 2.006417 ms  DeleteObjects: 0.058166 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CameraMove.cs: aa521818be3e8faecc4b53aff6f23d64 -> f64a7cfc921bd7d00f9c4d19df61245f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(9bd2650d6e4b84a97978d18e77e353d0) path("Assets/Scripts/AnimatronicPositions.cs") state(2)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x289f93000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.346 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.740 seconds
+Domain Reload Profiling: 1086ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (740ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Script is not up to date after domain reload: guid(9bd2650d6e4b84a97978d18e77e353d0) path("Assets/Scripts/AnimatronicPositions.cs") state(2)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (32.7 KB). Loaded Objects now: 3674.
+Memory consumption went from 170.9 MB to 170.9 MB.
+Total: 2.436041 ms (FindLiveObjects: 0.142125 ms CreateObjectMapping: 0.044667 ms MarkObjects: 2.151458 ms  DeleteObjects: 0.097084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CameraMove.cs: aa521818be3e8faecc4b53aff6f23d64 -> f64a7cfc921bd7d00f9c4d19df61245f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 268.394482 seconds.
+  path: Assets/Materials/Reactor/ReactorFloor.mat
+  artifactKey: Guid(40b0905c5ba530b44830cab55abbfbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Reactor/ReactorFloor.mat using Guid(40b0905c5ba530b44830cab55abbfbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cab2930c907579b5980d57d3ddc0828') in 0.091191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Materials/Reactor/ReactorPath.mat
+  artifactKey: Guid(85aeabf305c56e6408c00234c359a617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Reactor/ReactorPath.mat using Guid(85aeabf305c56e6408c00234c359a617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c496d28be2da8a752d8d44486660e54') in 0.003955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.413491 seconds.
+  path: Assets/Materials/Admin/MapMaterial.mat
+  artifactKey: Guid(8e97eab660acc4a51a150a02a0746477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Admin/MapMaterial.mat using Guid(8e97eab660acc4a51a150a02a0746477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45bc148de470067933f23021cd3275c') in 0.006566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(9bd2650d6e4b84a97978d18e77e353d0) path("Assets/Scripts/AnimatronicPositions.cs") state(2)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Script is not up to date after domain reload: guid(0d6f2825da32f44779cd346f968bfbb5) path("Assets/Scripts/Main Menu Scripts/NewGameScript.cs") state(2)
+Script is not up to date after domain reload: guid(f1920751e20f44e619ae1841a4479710) path("Assets/Scripts/Main Menu Scripts/SceneChanger.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x289f93000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.369 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.741 seconds
+Domain Reload Profiling: 1110ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (742ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (243ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Script is not up to date after domain reload: guid(9bd2650d6e4b84a97978d18e77e353d0) path("Assets/Scripts/AnimatronicPositions.cs") state(2)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Script is not up to date after domain reload: guid(0d6f2825da32f44779cd346f968bfbb5) path("Assets/Scripts/Main Menu Scripts/NewGameScript.cs") state(2)
+Script is not up to date after domain reload: guid(f1920751e20f44e619ae1841a4479710) path("Assets/Scripts/Main Menu Scripts/SceneChanger.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (34.3 KB). Loaded Objects now: 3675.
+Memory consumption went from 177.9 MB to 177.8 MB.
+Total: 2.589458 ms (FindLiveObjects: 0.118792 ms CreateObjectMapping: 0.038542 ms MarkObjects: 2.375375 ms  DeleteObjects: 0.056250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CameraMove.cs: aa521818be3e8faecc4b53aff6f23d64 -> f64a7cfc921bd7d00f9c4d19df61245f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(9bd2650d6e4b84a97978d18e77e353d0) path("Assets/Scripts/AnimatronicPositions.cs") state(2)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(98c41435c5bf4449bec1ac12337ec72e) path("Assets/Scripts/UI Scripts/VideoScript.cs") state(2)
+Script is not up to date after domain reload: guid(5a5125fc486a34707b56939c7cad1abf) path("Assets/Scripts/UI Scripts/VisibilityModifier.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Script is not up to date after domain reload: guid(0d6f2825da32f44779cd346f968bfbb5) path("Assets/Scripts/Main Menu Scripts/NewGameScript.cs") state(2)
+Script is not up to date after domain reload: guid(f1920751e20f44e619ae1841a4479710) path("Assets/Scripts/Main Menu Scripts/SceneChanger.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x289f93000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.350 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.668 seconds
+Domain Reload Profiling: 1018ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (669ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (247ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Script is not up to date after domain reload: guid(9bd2650d6e4b84a97978d18e77e353d0) path("Assets/Scripts/AnimatronicPositions.cs") state(2)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(98c41435c5bf4449bec1ac12337ec72e) path("Assets/Scripts/UI Scripts/VideoScript.cs") state(2)
+Script is not up to date after domain reload: guid(5a5125fc486a34707b56939c7cad1abf) path("Assets/Scripts/UI Scripts/VisibilityModifier.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Script is not up to date after domain reload: guid(0d6f2825da32f44779cd346f968bfbb5) path("Assets/Scripts/Main Menu Scripts/NewGameScript.cs") state(2)
+Script is not up to date after domain reload: guid(f1920751e20f44e619ae1841a4479710) path("Assets/Scripts/Main Menu Scripts/SceneChanger.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (34.2 KB). Loaded Objects now: 3676.
+Memory consumption went from 184.7 MB to 184.6 MB.
+Total: 4.224291 ms (FindLiveObjects: 0.151208 ms CreateObjectMapping: 0.040209 ms MarkObjects: 3.928375 ms  DeleteObjects: 0.103500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CameraMove.cs: aa521818be3e8faecc4b53aff6f23d64 -> f64a7cfc921bd7d00f9c4d19df61245f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(9bd2650d6e4b84a97978d18e77e353d0) path("Assets/Scripts/AnimatronicPositions.cs") state(2)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(98c41435c5bf4449bec1ac12337ec72e) path("Assets/Scripts/UI Scripts/VideoScript.cs") state(2)
+Script is not up to date after domain reload: guid(5a5125fc486a34707b56939c7cad1abf) path("Assets/Scripts/UI Scripts/VisibilityModifier.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(dfbe9fe74b16c406da1888003869397d) path("Assets/Scripts/LoseScript.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Script is not up to date after domain reload: guid(0d6f2825da32f44779cd346f968bfbb5) path("Assets/Scripts/Main Menu Scripts/NewGameScript.cs") state(2)
+Script is not up to date after domain reload: guid(f1920751e20f44e619ae1841a4479710) path("Assets/Scripts/Main Menu Scripts/SceneChanger.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x289f93000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.356 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.410 seconds
+Domain Reload Profiling: 767ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (410ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (219ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Script is not up to date after domain reload: guid(9bd2650d6e4b84a97978d18e77e353d0) path("Assets/Scripts/AnimatronicPositions.cs") state(2)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(98c41435c5bf4449bec1ac12337ec72e) path("Assets/Scripts/UI Scripts/VideoScript.cs") state(2)
+Script is not up to date after domain reload: guid(5a5125fc486a34707b56939c7cad1abf) path("Assets/Scripts/UI Scripts/VisibilityModifier.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(dfbe9fe74b16c406da1888003869397d) path("Assets/Scripts/LoseScript.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Script is not up to date after domain reload: guid(0d6f2825da32f44779cd346f968bfbb5) path("Assets/Scripts/Main Menu Scripts/NewGameScript.cs") state(2)
+Script is not up to date after domain reload: guid(f1920751e20f44e619ae1841a4479710) path("Assets/Scripts/Main Menu Scripts/SceneChanger.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (32.7 KB). Loaded Objects now: 3678.
+Memory consumption went from 191.2 MB to 191.2 MB.
+Total: 2.138833 ms (FindLiveObjects: 0.103375 ms CreateObjectMapping: 0.035250 ms MarkObjects: 1.949958 ms  DeleteObjects: 0.049583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CameraMove.cs: aa521818be3e8faecc4b53aff6f23d64 -> f64a7cfc921bd7d00f9c4d19df61245f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(9bd2650d6e4b84a97978d18e77e353d0) path("Assets/Scripts/AnimatronicPositions.cs") state(2)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(98c41435c5bf4449bec1ac12337ec72e) path("Assets/Scripts/UI Scripts/VideoScript.cs") state(2)
+Script is not up to date after domain reload: guid(5a5125fc486a34707b56939c7cad1abf) path("Assets/Scripts/UI Scripts/VisibilityModifier.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(dfbe9fe74b16c406da1888003869397d) path("Assets/Scripts/LoseScript.cs") state(2)
+Script is not up to date after domain reload: guid(bfdf0eeae337f44018aab96733d5241a) path("Assets/Scripts/WinScript.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Script is not up to date after domain reload: guid(0d6f2825da32f44779cd346f968bfbb5) path("Assets/Scripts/Main Menu Scripts/NewGameScript.cs") state(2)
+Script is not up to date after domain reload: guid(f1920751e20f44e619ae1841a4479710) path("Assets/Scripts/Main Menu Scripts/SceneChanger.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x289f93000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.324 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.440 seconds
+Domain Reload Profiling: 764ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (156ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (441ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (228ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Script is not up to date after domain reload: guid(9bd2650d6e4b84a97978d18e77e353d0) path("Assets/Scripts/AnimatronicPositions.cs") state(2)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(98c41435c5bf4449bec1ac12337ec72e) path("Assets/Scripts/UI Scripts/VideoScript.cs") state(2)
+Script is not up to date after domain reload: guid(5a5125fc486a34707b56939c7cad1abf) path("Assets/Scripts/UI Scripts/VisibilityModifier.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(dfbe9fe74b16c406da1888003869397d) path("Assets/Scripts/LoseScript.cs") state(2)
+Script is not up to date after domain reload: guid(bfdf0eeae337f44018aab96733d5241a) path("Assets/Scripts/WinScript.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Script is not up to date after domain reload: guid(0d6f2825da32f44779cd346f968bfbb5) path("Assets/Scripts/Main Menu Scripts/NewGameScript.cs") state(2)
+Script is not up to date after domain reload: guid(f1920751e20f44e619ae1841a4479710) path("Assets/Scripts/Main Menu Scripts/SceneChanger.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (32.8 KB). Loaded Objects now: 3680.
+Memory consumption went from 197.7 MB to 197.7 MB.
+Total: 2.075500 ms (FindLiveObjects: 0.112375 ms CreateObjectMapping: 0.037084 ms MarkObjects: 1.888583 ms  DeleteObjects: 0.036875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CameraMove.cs: aa521818be3e8faecc4b53aff6f23d64 -> f64a7cfc921bd7d00f9c4d19df61245f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(9bd2650d6e4b84a97978d18e77e353d0) path("Assets/Scripts/AnimatronicPositions.cs") state(2)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(98c41435c5bf4449bec1ac12337ec72e) path("Assets/Scripts/UI Scripts/VideoScript.cs") state(2)
+Script is not up to date after domain reload: guid(5a5125fc486a34707b56939c7cad1abf) path("Assets/Scripts/UI Scripts/VisibilityModifier.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(dfbe9fe74b16c406da1888003869397d) path("Assets/Scripts/LoseScript.cs") state(2)
+Script is not up to date after domain reload: guid(bfdf0eeae337f44018aab96733d5241a) path("Assets/Scripts/WinScript.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Script is not up to date after domain reload: guid(f719b72655718f04295b27a1fdfdae20) path("Assets/Scripts/MeshCombiner.cs") state(2)
+Script is not up to date after domain reload: guid(0d6f2825da32f44779cd346f968bfbb5) path("Assets/Scripts/Main Menu Scripts/NewGameScript.cs") state(2)
+Script is not up to date after domain reload: guid(f1920751e20f44e619ae1841a4479710) path("Assets/Scripts/Main Menu Scripts/SceneChanger.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x289f93000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.315 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 775ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (460ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (238ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Script is not up to date after domain reload: guid(9bd2650d6e4b84a97978d18e77e353d0) path("Assets/Scripts/AnimatronicPositions.cs") state(2)
+Script is not up to date after domain reload: guid(601f4268decbd40648cc370f78782f5a) path("Assets/Scripts/AdminMarkers.cs") state(2)
+Script is not up to date after domain reload: guid(98c41435c5bf4449bec1ac12337ec72e) path("Assets/Scripts/UI Scripts/VideoScript.cs") state(2)
+Script is not up to date after domain reload: guid(5a5125fc486a34707b56939c7cad1abf) path("Assets/Scripts/UI Scripts/VisibilityModifier.cs") state(2)
+Script is not up to date after domain reload: guid(08ac031bf01f4cf4a9c8f3e886a583d0) path("Assets/Scripts/ReactorFunctions.cs") state(2)
+Script is not up to date after domain reload: guid(116d45db342e7034a836eca7937c92ac) path("Assets/Scripts/DoorStates.cs") state(2)
+Script is not up to date after domain reload: guid(dfbe9fe74b16c406da1888003869397d) path("Assets/Scripts/LoseScript.cs") state(2)
+Script is not up to date after domain reload: guid(bfdf0eeae337f44018aab96733d5241a) path("Assets/Scripts/WinScript.cs") state(2)
+Script is not up to date after domain reload: guid(0da287d1884d89341baa8b54c1d1afd8) path("Assets/Scripts/VentStates.cs") state(2)
+Script is not up to date after domain reload: guid(f719b72655718f04295b27a1fdfdae20) path("Assets/Scripts/MeshCombiner.cs") state(2)
+Script is not up to date after domain reload: guid(0d6f2825da32f44779cd346f968bfbb5) path("Assets/Scripts/Main Menu Scripts/NewGameScript.cs") state(2)
+Script is not up to date after domain reload: guid(f1920751e20f44e619ae1841a4479710) path("Assets/Scripts/Main Menu Scripts/SceneChanger.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (32.8 KB). Loaded Objects now: 3682.
+Memory consumption went from 204.3 MB to 204.3 MB.
+Total: 2.205125 ms (FindLiveObjects: 0.124083 ms CreateObjectMapping: 0.038167 ms MarkObjects: 1.992000 ms  DeleteObjects: 0.050250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CameraMove.cs: aa521818be3e8faecc4b53aff6f23d64 -> f64a7cfc921bd7d00f9c4d19df61245f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 821.218485 seconds.
+  path: Assets/Audio/DoorShut.mp3
+  artifactKey: Guid(0543a817120f168438a1e94848fb39b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/DoorShut.mp3 using Guid(0543a817120f168438a1e94848fb39b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87923374a91193002dfd0b812dff8eb') in 0.154475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Audio/ReactorStartup.mp3
+  artifactKey: Guid(296c6692c19f0bc4eba112e9fa0aa7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/ReactorStartup.mp3 using Guid(296c6692c19f0bc4eba112e9fa0aa7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d2b75344523ca1629923f63cd35942') in 0.004966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Audio/KeyClick.mp3
+  artifactKey: Guid(9851e5b2386471e4b94acb0f24fa1bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/KeyClick.mp3 using Guid(9851e5b2386471e4b94acb0f24fa1bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23614f257f51f902ddf3952944176c5a') in 0.005150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Audio/Screwing.mp3
+  artifactKey: Guid(54de9c001b245514d9d19137f5430dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Screwing.mp3 using Guid(54de9c001b245514d9d19137f5430dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4a520ec36c030ac38447f20a675396') in 0.006294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
