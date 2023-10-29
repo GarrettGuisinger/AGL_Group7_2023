@@ -267,7 +267,6 @@ GameObject:
   m_Component:
   - component: {fileID: 239273976}
   - component: {fileID: 239273975}
-  - component: {fileID: 239273977}
   m_Layer: 0
   m_Name: UIFader
   m_TagString: Untagged
@@ -302,90 +301,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 452221785}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &239273977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239273974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd4decdbd972460f9f0cf694e0caf3ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &253545740
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 253545743}
-  - component: {fileID: 253545742}
-  - component: {fileID: 253545741}
-  m_Layer: 5
-  m_Name: Glitch (Video)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &253545741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 253545740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 344671dddf38646298cc1c13fdd6988c, type: 2}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &253545742
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 253545740}
-  m_CullTransparentMesh: 1
---- !u!224 &253545743
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 253545740}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 415, y: 264.5}
-  m_SizeDelta: {x: 830, y: 529}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &389035744
 GameObject:
   m_ObjectHideFlags: 0
@@ -1601,8 +1516,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d6f2825da32f44779cd346f968bfbb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shush: {fileID: 32900000, guid: 6b3eb3ccc92544372818ac8f1e6cb03b, type: 3}
-  glitch: {fileID: 32900000, guid: f9a152b71f98945749c326008be919b4, type: 3}
+  mainMenu: {fileID: 556808063}
+  mainMenuBackground: {fileID: 389035746}
+  title: {fileID: 2049339792}
+  newGameButton: {fileID: 451808532}
+  settingsButton: {fileID: 1146799029}
+  quitButton: {fileID: 135921938}
+  videoRaw: {fileID: 1659629443}
+  videoPlayer: {fileID: 1538647601}
+  crewmateScreen: {fileID: 1566765322}
+  surviveScreen: {fileID: 1159500144}
+  mod: {fileID: 239273975}
+  shush: {fileID: 32900000, guid: 8ba2bbb6b466a45ab9cd2f5090e86ee5, type: 3}
+  glitch: {fileID: 32900000, guid: 8cfbb73fb72b04265aea457a9ed3d4b8, type: 3}
+  scene: {fileID: 1738349626}
 --- !u!4 &1455386899
 Transform:
   m_ObjectHideFlags: 0
@@ -2013,6 +1940,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659629441}
   m_CullTransparentMesh: 1
+--- !u!114 &1738349626 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2307906336108388284, guid: 2e90ae49583554afabd7ae25a2d1b5b8, type: 3}
+  m_PrefabInstance: {fileID: 2054589471}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1920751e20f44e619ae1841a4479710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2049339790
 GameObject:
   m_ObjectHideFlags: 0
@@ -2388,7 +2326,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 556808064}
   - {fileID: 452221785}
-  - {fileID: 1538647602}
-  - {fileID: 253545743}
   - {fileID: 806819375}
   - {fileID: 1257779051}
+  - {fileID: 1538647602}
